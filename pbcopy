@@ -6,4 +6,5 @@ www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])     ! Hide S
 www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])       ! Hide individual Shorts videos in grid view
 www.youtube.com##ytd-reel-shelf-renderer       ! Hide Shorts shelf on homepage
 m.youtube.com##a[href^="/shorts"]              ! Hide Shorts links on mobile UI
-! this blocks all apis, but they still go through ||*.googlevideo.com^$important
+
+
