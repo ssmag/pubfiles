@@ -1,2 +1,5 @@
 ! This is the comment. Below this line, there is an actual filtering rule.
 ||youtube.com/shorts^
+! Shorts section
+www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+
