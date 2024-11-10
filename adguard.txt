@@ -7,3 +7,7 @@ www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])       ! Hide i
 www.youtube.com##ytd-reel-shelf-renderer       ! Hide Shorts shelf on homepage
 m.youtube.com##a[href^="/shorts"]              ! Hide Shorts links on mobile UI
 ||*.googlevideo.com^$important
+
+
+! INSTAGRAM
+||i.instagram.com
