@@ -11,3 +11,4 @@ m.youtube.com##a[href^="/shorts"]              ! Hide Shorts links on mobile UI
 
 ! INSTAGRAM
 ||i.instagram.com^
+!!instagram.c10r.instagram.com^
