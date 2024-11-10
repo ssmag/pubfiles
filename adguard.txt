@@ -1,6 +1,10 @@
-! Shorts section
-||youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
-! All shorts
-(https|http):\/\/www.youtube.com\/shorts\/[a-zA-Z0-9]+
-||youtube.com/shorts/^
+! Block YouTube Shorts playback and visibility on mobile and desktop
+||youtube.com/shorts^      ! Block direct access to YouTube Shorts URLs
+
+! Hide YouTube Shorts elements on desktop and mobile UI
+www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])     ! Hide Shorts section on YouTube home
+www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])       ! Hide individual Shorts videos in grid view
+www.youtube.com##ytd-reel-shelf-renderer       ! Hide Shorts shelf on homepage
+m.youtube.com##a[href^="/shorts"]              ! Hide Shorts links on mobile UI
+
 
